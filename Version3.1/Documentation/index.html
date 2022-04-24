@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Point of Sales - Multi Outlets POS &rdquo; Documentation by &ldquo;Wai&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Point of Sales - Multi Outlets POS&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 27/Aug/2016<br>
+					By: Wai<br>
+					Email: <a href="mailto:support@pos.prosoft-apps.com">support@pos.prosoft-apps.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my project. If you have any questions that are beyond the scope of this help file, please feel free to email <a href="mailto:support@pos.prosoft-apps.com">support@pos.prosoft-apps.com</a>. Thank you so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Please follow the below instruction</h2>
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+		<p>
+			After you downloaded the Project from Themeforest, please upload all the files & folder from <b>Project Folder</b> to your <b>Server Directory</b>.<br />
+			After you uploaded, please type your domain name/install (Example : http://www.abc.com/install/) from your browser<br />
+			After that, you just need to fill in your <b>Database Host Name</b>, <b>Database Username</b>, <b>Database Password</b> and <b>Database Name</b><br/>
+			After fill up all the information, Click Next to finish the installation.<br />
+			After installation done, Please create <b>.htaccess</b> file inside your <b>Server Directory</b> and paste the following code.<br />
+<pre>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+</pre>
+			<br />
+			<b>Final Step</b> : To change your website URL, open application Folder -> config Folder -> config.php
+			<br />Please find $config['base_url'] = 'http://.......' at Line Number : 26 and typed your website URL inside the single quote.
+			<br /><br />
+			Ready to go.<br />
+			Hope you enjoy it!
+			
+			<br /><br />
+			If you are having any difficulty to installation, We encourage you to contact us. Email us at support@pos.prosoft-apps.com for fast response. We will be glad to help you. 
+		</p>
+		<hr>
+	
+			<b>Admin (Owner) Login</b><br />
+			<ul>
+				<li>Username : owner@gmail.com</li>
+				<li>Password : password</li>
+			</ul>
+			<br />
+			<b>Bugis Outlet(Outlet No. 1)</b>
+			<ul>
+				<li><b>Manager</b>
+					<ul>
+						<li>Username : bugismanager@gmail.com</li>
+						<li>Password : password</li>
+					</ul>
+				</li>
+				<li><b>Sales Staff</b>
+					<ul>
+						<li>Username : bugissales@gmail.com</li>
+						<li>Password : password</li>
+					</ul>
+				</li>
+			</ul>
+			<br />
+			<b>Changi Airport Outlet(Outlet No. 2)</b>
+			<ul>
+				<li><b>Manager</b>
+					<ul>
+						<li>Username : changimanager@gmail.com</li>
+						<li>Password : password</li>
+					</ul>
+				</li>
+				<li><b>Sales Staff</b>
+					<ul>
+						<li>Username : changisales@gmail.com</li>
+						<li>Password : password</li>
+					</ul>
+				</li>
+			</ul>
+		<hr>
+		
+		
+		
+		<p>Once again, thank you so much for purchasing this project. As I said at the beginning, I'd be glad to help you if you have any questions relating to this project. No guarantees, but I'll do my best to assist. If you have a more general question relating to the project on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Wai</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
