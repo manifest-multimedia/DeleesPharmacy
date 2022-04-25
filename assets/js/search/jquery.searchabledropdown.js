@@ -6,7 +6,7 @@
  * $Id: jquery.searchabledropdown.js 51 2012-02-06 21:28:34Z xhaggi $
  *
  * Based up on the AddIncSearch plugin published by Tobias Oetiker
- * http://plugins.jquery.com/project/AddIncSearch
+ * https//plugins.jquery.com/project/AddIncSearch
  *
  *
  * This program is free software; you can redistribute it and/or modify
@@ -201,7 +201,7 @@
         selector.mousemove(function(e) {
         	// Disabled on opera because of <select> elements always return scrollTop of 0
         	// Affects up to Opera 10 beta 1, can be removed if bug is fixed
-            // http://www.greywyvern.com/code/opera/bugs/selectScrollTop
+            // https//www.greywyvern.com/code/opera/bugs/selectScrollTop
         	if($.browser.opera && parseFloat(jQuery.browser.version) >= 9.8)
         		return true;
 

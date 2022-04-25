@@ -14,10 +14,10 @@ class CommandTest extends TestCase
 
     public function testSetManifestUri()
     {
-        $this->command->setManifestUri('http://example.com/test.json');
+        $this->command->setManifestUri('https//example.com/test.json');
 
         $this->assertEquals(
-            'http://example.com/test.json',
+            'https//example.com/test.json',
             $this->getPropertyValue($this->command, 'manifestUri')
         );
     }

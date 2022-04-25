@@ -7,17 +7,17 @@ class Pos extends CI_Controller
      * Index Page for this controller.
      *
      * Maps to the following URL
-     * 		http://example.com/index.php/welcome
+     * 		https//example.com/index.php/welcome
      *	- or -
-     * 		http://example.com/index.php/welcome/index
+     * 		https//example.com/index.php/welcome/index
      *	- or -
      * Since this controller is set as the default controller in
-     * config/routes.php, it's displayed at http://example.com/
+     * config/routes.php, it's displayed at https//example.com/
      *
      * So any other public methods not prefixed with an underscore will
      * map to /index.php/welcome/<method_name>
      *
-     * @see http://codeigniter.com/user_guide/general/urls.html
+     * @see https//codeigniter.com/user_guide/general/urls.html
      */
     public function __construct()
     {
@@ -734,8 +734,8 @@ class Pos extends CI_Controller
         $toemail = "$email";
         $subject = "Receipt from $site_name";
         $mesg = '
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml">
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="https//www.w3.org/1999/xhtml">
 	 
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

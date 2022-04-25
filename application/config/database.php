@@ -38,8 +38,8 @@
 */
 
 // The following values will probably need to be changed.
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['username'] = 'delees';
+$db['default']['password'] = 'p@$$wordGH13';
 $db['default']['database'] = 'delees';
 
 // The following values can probably stay the same.

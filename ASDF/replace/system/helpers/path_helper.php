@@ -29,8 +29,8 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
+ * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (https//bcit.ca/)
+ * @license	https//opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
  * @filesource
@@ -61,7 +61,7 @@ if ( ! function_exists('set_realpath'))
 	function set_realpath($path, $check_existance = FALSE)
 	{
 		// Security check to make sure the path is NOT a URL. No remote file inclusion!
-		if (preg_match('#^(http:\/\/|https:\/\/|www\.|ftp|php:\/\/)#i', $path) OR filter_var($path, FILTER_VALIDATE_IP) === $path)
+		if (preg_match('#^(https\/\/|https:\/\/|www\.|ftp|php:\/\/)#i', $path) OR filter_var($path, FILTER_VALIDATE_IP) === $path)
 		{
 			show_error('The path you submitted must be a local server path, not a URL');
 		}

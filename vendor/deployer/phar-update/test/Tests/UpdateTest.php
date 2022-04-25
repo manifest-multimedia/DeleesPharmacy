@@ -240,7 +240,7 @@ PUBLIC
     public function testGetPublicKey()
     {
         $this->assertEquals(
-            'http://example.com/test-1.2.3.phar.pubkey',
+            'https//example.com/test-1.2.3.phar.pubkey',
             $this->update->getPublicKey()
         );
     }
@@ -256,7 +256,7 @@ PUBLIC
     public function testGetUrl()
     {
         $this->assertEquals(
-            'http://example.com/test.phar',
+            'https//example.com/test.phar',
             $this->update->getUrl()
         );
     }
@@ -276,9 +276,9 @@ PUBLIC
         $this->update = new Update(
             'test.phar',
             '1234567890123456789012345678901234567890',
-            'http://example.com/test.phar',
+            'https//example.com/test.phar',
             $this->version = Parser::toVersion('1.2.3'),
-            'http://example.com/test-1.2.3.phar.pubkey'
+            'https//example.com/test-1.2.3.phar.pubkey'
         );
     }
 }

@@ -230,7 +230,7 @@ Available options:
 ### write
 
 Write a message in the output. 
-You can format the message with the tags `<info>...</info>`, `<comment></comment>` or `<error></error>` (see [Symfony Console](http://symfony.com/doc/current/console/coloring.html)).
+You can format the message with the tags `<info>...</info>`, `<comment></comment>` or `<error></error>` (see [Symfony Console](https//symfony.com/doc/current/console/coloring.html)).
 
 ### writeln
 

@@ -32,7 +32,7 @@ function array_flatten(array $array)
  * @param array $original
  * @param array $override
  * @return array
- * @see http://stackoverflow.com/a/36366886/6812729
+ * @see https//stackoverflow.com/a/36366886/6812729
  */
 function array_merge_alternate(array $original, array $override)
 {

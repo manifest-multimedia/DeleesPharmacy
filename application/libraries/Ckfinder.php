@@ -2,7 +2,7 @@
 /*
  * CKFinder
  * ========
- * http://ckfinder.com
+ * https//ckfinder.com
  * Copyright (C) 2007-2011, CKSource - Frederico Knabben. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
