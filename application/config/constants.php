@@ -66,12 +66,12 @@ defined('FOPEN_READ_WRITE_CREATE_STRICT') or define('FOPEN_READ_WRITE_CREATE_STR
 | are as follows:
 |
 |    Standard C/C++ Library (stdlibc):
-|       https//www.gnu.org/software/libc/manual/html_node/Exit-Status.html
+|       https://www.gnu.org/software/libc/manual/html_node/Exit-Status.html
 |       (This link also contains other GNU-specific conventions)
 |    BSD sysexits.h:
-|       https//www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
+|       https://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
 |    Bash scripting:
-|       https//tldp.org/LDP/abs/html/exitcodes.html
+|       https://tldp.org/LDP/abs/html/exitcodes.html
 |
 */
 defined('EXIT_SUCCESS') or define('EXIT_SUCCESS', 0); // no errors

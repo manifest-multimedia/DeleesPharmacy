@@ -527,7 +527,7 @@
 												
 												<!--
 												<div data-toggle="tab" href="#pilltabAll" style="cursor: pointer;">
-													<img src="https//placehold.it/120x60/373942/FFFFFF?text=All" />
+													<img src="https://placehold.it/120x60/373942/FFFFFF?text=All" />
 												</div>
 												-->
 												<div data-toggle="tab" href="#pilltabAll" style="cursor: pointer; text-align: center; background-color: #373942; color: #FFF; width: 100px; height: 50px; text-align: center; vertical-align: middle; line-height: 50px;">
@@ -542,7 +542,7 @@
                                                         $cat_name = $catData[$ct]->name; ?>
 														<!--
 														<div data-toggle="tab" href="#pilltab<?php echo $cat_id; ?>" style="cursor: pointer;">
-															<img src="https//placehold.it/120x60/373942/FFFFFF?text=<?php echo $cat_name; ?>" />
+															<img src="https://placehold.it/120x60/373942/FFFFFF?text=<?php echo $cat_name; ?>" />
 														</div>
 														-->
 														

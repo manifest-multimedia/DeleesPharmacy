@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | URL to your CodeIgniter root. Typically this will be your base URL,
 | WITH a trailing slash:
 |
-|	https//example.com/
+|	https://example.com/
 |
 | WARNING: You MUST set this value!
 |
@@ -87,7 +87,7 @@ $config['language'] = 'english';
 | This determines which character set is used by default in various methods
 | that require a character set to be provided.
 |
-| See https//php.net/htmlspecialchars for a list of supported charsets.
+| See https://php.net/htmlspecialchars for a list of supported charsets.
 |
 */
 $config['charset'] = 'UTF-8';
@@ -132,7 +132,7 @@ $config['subclass_prefix'] = 'MY_';
 |
 |	$config['composer_autoload'] = '/path/to/vendor/autoload.php';
 |
-| For more information about Composer, please visit https//getcomposer.org/
+| For more information about Composer, please visit https://getcomposer.org/
 |
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)

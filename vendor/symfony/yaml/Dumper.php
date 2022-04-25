@@ -68,7 +68,7 @@ class Dumper
 
                 if (Yaml::DUMP_MULTI_LINE_LITERAL_BLOCK & $flags && \is_string($value) && false !== strpos($value, "\n") && false === strpos($value, "\r")) {
                     // If the first line starts with a space character, the spec requires a blockIndicationIndicator
-                    // https//www.yaml.org/spec/1.2/spec.html#id2793979
+                    // https://www.yaml.org/spec/1.2/spec.html#id2793979
                     $blockIndentationIndicator = (' ' === substr($value, 0, 1)) ? (string) $this->indentation : '';
 
                     if (isset($value[-2]) && "\n" === $value[-2] && "\n" === $value[-1]) {
@@ -97,7 +97,7 @@ class Dumper
 
                     if (Yaml::DUMP_MULTI_LINE_LITERAL_BLOCK & $flags && \is_string($value->getValue()) && false !== strpos($value->getValue(), "\n") && false === strpos($value->getValue(), "\r\n")) {
                         // If the first line starts with a space character, the spec requires a blockIndicationIndicator
-                        // https//www.yaml.org/spec/1.2/spec.html#id2793979
+                        // https://www.yaml.org/spec/1.2/spec.html#id2793979
                         $blockIndentationIndicator = (' ' === substr($value->getValue(), 0, 1)) ? (string) $this->indentation : '';
                         $output .= sprintf(' |%s', $blockIndentationIndicator);
 

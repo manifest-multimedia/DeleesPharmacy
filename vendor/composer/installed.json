@@ -112,7 +112,7 @@
                 {
                     "name": "Kevin Herrera",
                     "email": "kevin@herrera.io",
-                    "homepage": "https//kevin.herrera.io"
+                    "homepage": "https://kevin.herrera.io"
                 },
                 {
                     "name": "Anton Medvedev",
@@ -164,7 +164,7 @@
             "license": [
                 "BSD"
             ],
-            "homepage": "https//vfs.bovigo.org/",
+            "homepage": "https://vfs.bovigo.org/",
             "support": {
                 "issues": "https://github.com/bovigo/vfsStream/issues",
                 "source": "https://github.com/bovigo/vfsStream/tree/v1.1.0"

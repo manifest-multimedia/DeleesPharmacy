@@ -20,8 +20,8 @@
  *
  * @category   PHPExcel
  *
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https//www.codeplex.com/PHPExcel)
- * @license    https//www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
+ * @license    https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
  *
  * @version    1.8.0, 2014-03-02
  */
@@ -31,7 +31,7 @@
  *
  * @category   PHPExcel
  *
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https//www.codeplex.com/PHPExcel)
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
  */
 class PHPExcel_Shared_Drawing
 {
@@ -187,7 +187,7 @@ class PHPExcel_Shared_Drawing
     /**
      * Create a new image from file. By alexander at alexauto dot nl.
      *
-     * @link https//www.php.net/manual/en/function.imagecreatefromwbmp.php#86214
+     * @link https://www.php.net/manual/en/function.imagecreatefromwbmp.php#86214
      *
      * @param string $filename Path to Windows DIB (BMP) image
      *
@@ -207,7 +207,7 @@ class PHPExcel_Shared_Drawing
         $header = substr($hex, 0, 108);
 
         //    Process the header
-        //    Structure: https//www.fastgraph.com/help/bmp_header_format.html
+        //    Structure: https://www.fastgraph.com/help/bmp_header_format.html
         if (substr($header, 0, 4) == '424d') {
             //    Cut it in parts of 2 bytes
             $header_parts = str_split($header, 2);

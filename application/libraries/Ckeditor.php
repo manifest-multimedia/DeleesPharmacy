@@ -1,14 +1,14 @@
 <?php
 /*
 * Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
-* For licensing, see LICENSE.html or https//ckeditor.com/license
+* For licensing, see LICENSE.html or https://ckeditor.com/license
 */
 
 /**
  * \brief CKEditor class that can be used to create editor
  * instances in PHP pages on server side.
  *
- * @see https//ckeditor.com
+ * @see https://ckeditor.com
  *
  * Sample usage:
  * @code
@@ -40,7 +40,7 @@ class Ckeditor
     public $basePath;
     /**
      * An array that holds the global %CKEditor configuration.
-     * For the list of available options, see https//docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html.
+     * For the list of available options, see https://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html.
      *
      * Example usage:
      *
@@ -496,7 +496,7 @@ class Ckeditor
 
         /*
          * The filename of the currently executing script, relative to the document root.
-         * For instance, $_SERVER['PHP_SELF'] in a script at the address https//example.com/test.php/foo.bar
+         * For instance, $_SERVER['PHP_SELF'] in a script at the address https://example.com/test.php/foo.bar
          * would be /test.php/foo.bar.
          */
         $selfPath = dirname($_SERVER['PHP_SELF']);

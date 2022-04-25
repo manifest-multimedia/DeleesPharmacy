@@ -60,16 +60,16 @@ class ManifestTest extends TestCase
         $data = json_encode(array(
             array(
                 'name' => 'test.phar',
-                'publicKey' => 'https//example.com/test-1.2.3.phar.pubkey',
+                'publicKey' => 'https://example.com/test-1.2.3.phar.pubkey',
                 'sha1' => 'abcdefabcdefabcdefabcdefabcdefabcdefabcd',
-                'url' => 'https//example.com/test-1.2.3.phar',
+                'url' => 'https://example.com/test-1.2.3.phar',
                 'version' => '1.2.3',
             ),
             array(
                 'name' => 'test.phar',
-                'publicKey' => 'https//example.com/test-4.5.6.phar.pubkey',
+                'publicKey' => 'https://example.com/test-4.5.6.phar.pubkey',
                 'sha1' => '0123456789012345678901234567890123456789',
-                'url' => 'https//example.com/test-4.5.6.phar',
+                'url' => 'https://example.com/test-4.5.6.phar',
                 'version' => '4.5.6'
             )
         ));
@@ -77,11 +77,11 @@ class ManifestTest extends TestCase
         $updates = Manifest::load($data)->getUpdates();
 
         $this->assertEquals(
-            'https//example.com/test-1.2.3.phar.pubkey',
+            'https://example.com/test-1.2.3.phar.pubkey',
             $updates[0]->getPublicKey()
         );
         $this->assertEquals(
-            'https//example.com/test-4.5.6.phar.pubkey',
+            'https://example.com/test-4.5.6.phar.pubkey',
             $updates[1]->getPublicKey()
         );
     }
@@ -92,13 +92,13 @@ class ManifestTest extends TestCase
             array(
                 'name' => 'test.phar',
                 'sha1' => 'abcdefabcdefabcdefabcdefabcdefabcdefabcd',
-                'url' => 'https//example.com/test-1.2.3.phar',
+                'url' => 'https://example.com/test-1.2.3.phar',
                 'version' => '1.2.3'
             ),
             array(
                 'name' => 'test.phar',
                 'sha1' => '0123456789012345678901234567890123456789',
-                'url' => 'https//example.com/test-4.5.6.phar',
+                'url' => 'https://example.com/test-4.5.6.phar',
                 'version' => '4.5.6'
             )
         )));
@@ -125,21 +125,21 @@ class ManifestTest extends TestCase
         $this->v1 = new Update(
             'test.phar',
             '0123456789012345678901234567890123456789',
-            'https//example.com/test.phar',
+            'https://example.com/test.phar',
             Parser::toVersion('1.2.3')
         );
 
         $this->v1p = new Update(
             'test.phar',
             '0123456789012345678901234567890123456789',
-            'https//example.com/test.phar',
+            'https://example.com/test.phar',
             Parser::toVersion('2.0.0-alpha.2')
         );
 
         $this->v2 = new Update(
             'test.phar',
             '0123456789012345678901234567890123456789',
-            'https//example.com/test.phar',
+            'https://example.com/test.phar',
             Parser::toVersion('4.5.6')
         );
 

@@ -9,9 +9,9 @@
  *
  * @author Shay Anderson 05.11
  *
- * @link https//www.shayanderson.com/php/php-barcode-generator-class-code-39.htm
+ * @link https://www.shayanderson.com/php/php-barcode-generator-class-code-39.htm
  *
- * @license https//www.gnu.org/licenses/gpl.html GPL License
+ * @license https://www.gnu.org/licenses/gpl.html GPL License
  * This is free software and is distributed WITHOUT ANY WARRANTY
  */
 final class Barcode39

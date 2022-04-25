@@ -20,8 +20,8 @@
  *
  * @category   PHPExcel
  *
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https//www.codeplex.com/PHPExcel)
- * @license    https//www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
+ * @license    https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
  *
  * @version    1.8.0, 2014-03-02
  */
@@ -45,8 +45,8 @@ PARTLY BASED ON:
     whether in an action of contract, tort or otherwise, arising from, out of or in connection with the
     software or the use or other dealings in the software.
 
-    https//ewbi.blogs.com/develops/2007/03/excel_formula_p.html
-    https//ewbi.blogs.com/develops/2004/12/excel_formula_p.html
+    https://ewbi.blogs.com/develops/2007/03/excel_formula_p.html
+    https://ewbi.blogs.com/develops/2004/12/excel_formula_p.html
 */
 
 /**
@@ -54,7 +54,7 @@ PARTLY BASED ON:
  *
  * @category   PHPExcel
  *
- * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https//www.codeplex.com/PHPExcel)
+ * @copyright  Copyright (c) 2006 - 2014 PHPExcel (https://www.codeplex.com/PHPExcel)
  */
 class PHPExcel_Calculation_FormulaToken
 {

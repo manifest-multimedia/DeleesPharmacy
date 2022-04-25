@@ -632,7 +632,7 @@ class vfsStreamWrapper
      * @return  bool
      * @since   0.10.0
      * @see     https://github.com/mikey179/vfsStream/issues/15
-     * @see     https//www.php.net/manual/streamwrapper.stream-set-option.php
+     * @see     https://www.php.net/manual/streamwrapper.stream-set-option.php
      */
     public function stream_set_option($option, $arg1, $arg2)
     {
